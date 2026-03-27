@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+    /* 1. Sets the total size of the grid */
+    width: 200px;
+    height: 200px;
+    
+    /* 2. Turns on CSS Grid */
+    display: grid;
+    
+    /* 3. Uses the repeat function for columns and rows */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
